@@ -19,11 +19,11 @@ class TransactionList extends StatelessWidget {
                 Container(
                   margin: EdgeInsets.symmetric(
                     vertical: 10,
-                    horizontal: 15,
+                    horizontal: 8,
                   ),
                   decoration: BoxDecoration(
                     border: Border.all(
-                        color: Colors.black,
+                        color: Theme.of(context).primaryColorDark,
                         width: 2,
                         style: BorderStyle.solid),
                   ),
@@ -33,7 +33,7 @@ class TransactionList extends StatelessWidget {
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 20,
-                        color: Colors.green),
+                        color: Theme.of(context).primaryColor),
                   ),
                 ),
                 Column(
